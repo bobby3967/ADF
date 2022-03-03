@@ -1,0 +1,9 @@
+{
+	"name": "harsha-adf-dev",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "25533703-64f8-4f7b-b5e1-e99e7a35817d",
+		"tenantId": "0d637586-128e-4ccd-9ef7-ee11166e7ff3"
+	}
+}
