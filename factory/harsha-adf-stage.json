@@ -1,0 +1,9 @@
+{
+	"name": "harsha-adf-stage",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "4daf9200-850c-4a83-bc62-4fc2290bc255",
+		"tenantId": "5d12f95b-94f4-4a3f-ae64-96bee9964c11"
+	}
+}
