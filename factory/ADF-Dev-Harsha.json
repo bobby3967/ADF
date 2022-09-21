@@ -1,0 +1,12 @@
+{
+	"name": "ADF-Dev-Harsha",
+	"properties": {
+		"globalParameters": {
+			"GP1": {
+				"type": "string",
+				"value": "Harsha"
+			}
+		}
+	},
+	"location": "eastus"
+}
