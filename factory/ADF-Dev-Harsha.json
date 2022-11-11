@@ -1,12 +1,9 @@
 {
 	"name": "ADF-Dev-Harsha",
-	"properties": {
-		"globalParameters": {
-			"GP1": {
-				"type": "string",
-				"value": "Harsha"
-			}
-		}
-	},
-	"location": "eastus"
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0727f995-1a08-4fee-9207-af2f8df2abdf",
+		"tenantId": "02174f8c-4346-4512-ac21-8012ac3fc5af"
+	}
 }
