@@ -1,5 +1,13 @@
 {
 	"name": "ADF-Dev-Harsha",
+	"properties": {
+		"globalParameters": {
+			"waitparam": {
+				"type": "int",
+				"value": 1
+			}
+		}
+	},
 	"location": "eastus",
 	"identity": {
 		"type": "SystemAssigned",
