@@ -1,0 +1,24 @@
+{
+	"name": "trigger1",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline1",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "BlobEventsTrigger",
+		"typeProperties": {
+			"blobPathBeginsWith": "/adf/blobs/",
+			"ignoreEmptyBlobs": true,
+			"scope": "/subscriptions/d29f59a9-1f45-4957-9a0a-d1baedb119f8/resourceGroups/RG-Harsha/providers/Microsoft.Storage/storageAccounts/harshavsa",
+			"events": [
+				"Microsoft.Storage.BlobCreated"
+			]
+		}
+	}
+}
